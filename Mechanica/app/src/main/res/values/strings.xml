@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mechanica</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cbitactivity">cbitactivity</string>
+    <string name="title_activity_aboutmechanica">aboutmechanica</string>
+    <string name="title_activity_about_us">aboutUs</string>
+    <string name="title_activity_aboutus">aboutus</string>
+    <string name="title_activity_contact_us">contactUs</string>
+    <string name="title_activity_sponser">sponser</string>
+    <string name="title_activity_eventactivity">eventactivity</string>
+    <string name="title_activity_autoquiz">autoquiz</string>
+    <string name="title_activity_mockplacements">mockplacements</string>
+    <string name="title_activity_workshops">workshops</string>
+    <string name="title_activity_junkyardwars">junkyardwars</string>
+    <string name="title_activity_robotics">robotics</string>
+    <string name="title_activity_ppt">ppt</string>
+    <string name="title_activity_intoindustry">intoindustry</string>
+    <string name="title_activity_techquiz">techquiz</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="title_activity_powerppt">powerppt</string>
+    <string name="title_activity_eventsactivity">eventsactivity</string>
+    <string name="title_activity_eve">eve</string>
+</resources>

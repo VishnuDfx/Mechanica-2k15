@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  android:background="@drawable/back_large" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:id="@id/center" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/aboutus" android:background="@drawable/aboutus" android:visibility="visible" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_marginRight="70.0dip" android:layout_marginBottom="70.0dip" android:layout_toLeftOf="@id/center" android:layout_above="@id/center" />
+    <ImageView android:id="@id/cbit" android:background="@drawable/cbit" android:visibility="visible" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_marginTop="70.0dip" android:layout_marginRight="70.0dip" android:layout_toLeftOf="@id/center" android:layout_below="@id/center" />
+    <ImageView android:id="@id/video" android:background="@drawable/videos" android:visibility="visible" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_marginLeft="70.0dip" android:layout_marginBottom="70.0dip" android:layout_toRightOf="@id/center" android:layout_above="@id/center" />
+    <ImageView android:id="@id/aboutmechanica" android:background="@drawable/aboutmechanica" android:visibility="visible" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_marginLeft="70.0dip" android:layout_marginTop="70.0dip" android:layout_toRightOf="@id/center" android:layout_below="@id/center" />
+    <ImageView android:id="@id/events" android:background="@drawable/events" android:visibility="visible" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_marginBottom="120.0dip" android:layout_above="@id/center" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/contactus" android:background="@drawable/contactus" android:visibility="visible" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_marginTop="120.0dip" android:layout_below="@id/center" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/facebook" android:background="@drawable/facebook" android:visibility="visible" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_marginLeft="120.0dip" android:layout_toRightOf="@id/center" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/sponsors" android:background="@drawable/sponcers" android:visibility="visible" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_marginRight="120.0dip" android:layout_toLeftOf="@id/center" android:layout_centerVertical="true" />
+</RelativeLayout>

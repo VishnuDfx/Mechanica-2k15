@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    tools:context="com.cbit.vishnu.mechanica.eventactivity">
+    <ScrollView  android:background="@drawable/background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="#ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip">
+            <LinearLayout android:orientation="horizontal"  android:background="#ffffff" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginTop="5.0dip">
+                <Button android:id="@+id/autoquiz" android:background="@drawable/autoquiz" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="1.0" android:onClick="" />
+
+            </LinearLayout>
+
+            <LinearLayout android:orientation="horizontal"  android:background="#ffffff" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginBottom="5.0dip">
+                <Button android:id="@+id/powerppt" android:background="@drawable/powerppt" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="1.0" />
+                <Button android:id="@+id/mockplacements" android:background="@drawable/mockplacements" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="#ffffff" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginBottom="5.0dip">
+                <Button android:id="@+id/workshops" android:background="@drawable/workshops" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="1.0" />
+                <Button android:textColor="#ffffffff" android:id="@+id/junkyardwars" android:background="@drawable/junkyardwars" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal"  android:background="#ffffff" android:layout_width="fill_parent" android:layout_height="150.0dip">
+                <Button android:id="@+id/ppt" android:background="@drawable/ppt" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="1.0" />
+                <Button android:id="@+id/intotheindustry" android:background="@drawable/intotheindustry" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal"  android:background="#ffffff" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginTop="5.0dip">
+                <Button android:id="@+id/techquiz" android:background="@drawable/techquiz" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_weight="1.0" />
+                <Button android:id="@+id/robotics" android:background="@drawable/robotics" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

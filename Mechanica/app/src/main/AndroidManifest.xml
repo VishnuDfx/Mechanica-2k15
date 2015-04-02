@@ -1,0 +1,106 @@
+<?xml version="1.1" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cbit.vishnu.mechanica">
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Mechanica"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".splash"
+            android:label="Mechanica"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" >
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".cbitactivity"
+            android:label="@string/title_activity_cbitactivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".aboutmechanica"
+            android:label="@string/title_activity_aboutmechanica"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".aboutus"
+            android:label="@string/title_activity_aboutus"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".contactUs"
+            android:label="@string/title_activity_contact_us"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".sponser"
+            android:label="@string/title_activity_sponser"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".eventactivity"
+            android:label="@string/title_activity_eventactivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".mockplacements"
+            android:label="@string/title_activity_mockplacements"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".workshops"
+            android:label="@string/title_activity_workshops"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".junkyardwars"
+            android:label="@string/title_activity_junkyardwars"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".robotics"
+            android:label="@string/title_activity_robotics"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ppt"
+            android:label="@string/title_activity_ppt"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".intoindustry"
+            android:label="@string/title_activity_intoindustry"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".techquiz"
+            android:label="@string/title_activity_techquiz"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".powerppt"
+            android:label="@string/title_activity_powerppt"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name=".autoquiz"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_autoquiz" >
+        </activity>
+    </application>
+
+</manifest>

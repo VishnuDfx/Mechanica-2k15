@@ -1,0 +1,6 @@
+<root>
+    <item
+        name='android.app.Activity void attach(android.content.Context, android.app.ActivityThread, android.app.Instrumentation, android.os.IBinder, int, android.app.Application, android.content.Intent, android.content.pm.ActivityInfo, java.lang.CharSequence, android.app.Activity, java.lang.String, android.app.Activity.NonConfigurationInstances, android.content.res.Configuration, IVoiceInteractor) 13'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>
